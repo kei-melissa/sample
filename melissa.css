@@ -1,0 +1,207 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+ margin:0;
+ font-family: 'Apple Symbols';
+}
+
+.header {
+  background-color: #f9f8fc;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  position: absolute;
+  top: 0px;
+  opacity: 0.9;
+}
+
+.header-logo {
+  width: 130px;
+  padding-top: 25px;
+  padding-left: 40px;
+  float: left;
+}
+
+.header-right a{
+  float: right;
+  font-size: 20px;
+  color: #4682b4;
+  display: block;
+  background-color: #f9f8fc;
+  height: 80px;
+  text-decoration: none;
+  line-height: 80px;
+  width: 90px;
+  transition: all 0.5s;
+}
+
+.about {
+  margin-right: 40px;
+  text-align: center;
+}
+
+.products {
+  margin-right: 20px;
+  text-align: center;
+}
+
+.header-right a:hover {
+  background-color: #b0e0e6;
+  color: #fff
+}
+
+.main {
+  background-image: url(bg.jpg);
+  background-size: cover;
+  height:900px;
+  text-align: center;
+}
+
+.main-wrapper {
+  padding-top: 350px
+}
+
+.logo {
+  width: 40%;
+  padding-right: 40px
+}
+
+.main-wrapper p {
+  color: #fff;
+}
+
+.main1 {
+  padding-top: 70px;
+  padding-bottom: 0px
+}
+
+.items-header {
+  text-align: center;
+  color: #87ceeb;
+  padding-top: 150px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #87ceeb;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.items-wrapper {
+  height: 700px;
+}
+
+.item {
+  float: left;
+  width: 25%;
+}
+
+.item img{
+  width: 300px;
+}
+
+.item p {
+  padding-top: 15px;
+  text-align: center;
+  font-size: 20px;
+  width: 300px
+}
+
+.pouch {
+  position: relative;
+  margin: 100px 100px 200px 340px;
+}
+
+.pouch a {
+  color: #fff;
+  font-size: 20px;
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  text-decoration: none;
+  background-color: #87ceeb;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  line-height: 300px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.pouch a:hover {
+  opacity: 0.7;
+}
+
+.hc {
+  position: relative;
+  margin: 100px 0 200px 0;
+}
+
+.hc a {
+  color: #fff;
+  font-size: 20px;
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  text-decoration: none;
+  background-color: #87ceeb;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  line-height: 300px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.hc a:hover {
+  opacity: 0.7;
+}
+
+ footer {
+  height: 100px;
+  background-color: gray;
+  margin-bottom: 0px;
+}
+
+ footer img {
+   width: 100px;
+   padding-left: 30px;
+   padding-top: 40px;
+   opacity: 0.9;
+ }
+
+ footer a {
+   color: white;
+   text-decoration: none;
+   font-size: 17px;
+   opacity: 0.8;
+ }
+
+  footer a:hover {
+    opacity: 0.5;
+  }
+
+ footer div {
+   float: right;
+   padding: 45px 30px 20px 0;
+ }
+
+ .minne {
+   margin-left: 10px
+ }
+
+ .base {
+   margin-left: 10px
+ }
+
+ .twitter {
+   margin-left: 10px
+ }
+
+ .fa-instagram {
+   font-size: 0.8em;
+ }
+
+ .fa-twitter {
+   font-size: 0.8em;
+ }
